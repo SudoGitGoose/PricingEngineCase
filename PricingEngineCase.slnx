@@ -1,0 +1,37 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PricingEngineCase.Contracts/PricingEngineCase.Contracts.csproj" />
+    <Project Path="src/PricingEngineCase.Domain/PricingEngineCase.Domain.csproj" />
+    <Project Path="src/PricingEngineCase.Api/PricingEngineCase.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/PricingEngineCase.Web/">
+    <File Path="src/PricingEngineCase.Web/package.json" />
+    <File Path="src/PricingEngineCase.Web/tsconfig.json" />
+  </Folder>
+  <Folder Name="/src/PricingEngineCase.Web/components/charging-sessions/">
+    <File Path="src/PricingEngineCase.Web/src/components/charging-sessions/session-cost-breakdown.tsx" />
+    <File Path="src/PricingEngineCase.Web/src/components/charging-sessions/session-pricing-form.tsx" />
+  </Folder>
+  <Folder Name="/src/PricingEngineCase.Web/domain/">
+    <File Path="src/PricingEngineCase.Web/src/domain/pricing.ts" />
+  </Folder>
+  <Folder Name="/src/PricingEngineCase.Web/hooks/">
+    <File Path="src/PricingEngineCase.Web/src/hooks/use-pricing.ts" />
+  </Folder>
+  <Folder Name="/src/PricingEngineCase.Web/lib/">
+    <File Path="src/PricingEngineCase.Web/src/lib/api-client.ts" />
+    <File Path="src/PricingEngineCase.Web/src/lib/utils.ts" />
+  </Folder>
+  <Folder Name="/src/PricingEngineCase.Web/pages/">
+    <File Path="src/PricingEngineCase.Web/src/pages/index.tsx" />
+    <File Path="src/PricingEngineCase.Web/src/pages/_app.tsx" />
+    <File Path="src/PricingEngineCase.Web/src/pages/_document.tsx" />
+  </Folder>
+  <Folder Name="/src/PricingEngineCase.Web/styles/">
+    <File Path="src/PricingEngineCase.Web/src/styles/globals.css" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/PricingEngineCase.Domain.Tests/PricingEngineCase.Domain.Tests.csproj" />
+    <Project Path="test/PricingEngineCase.Api.Tests/PricingEngineCase.Api.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Runtime" />
+    <PackageReference Include="Microsoft.Orleans.Sdk" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PricingEngineCase.Contracts\PricingEngineCase.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

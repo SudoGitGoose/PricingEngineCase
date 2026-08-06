@@ -1,0 +1,6 @@
+root = false
+
+# Test method names use underscores by convention; allow synchronous HttpClient overloads in tests.
+[*.cs]
+dotnet_diagnostic.CA1707.severity = none
+dotnet_diagnostic.CA2234.severity = none
